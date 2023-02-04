@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="ms-MY">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="csrf-token" content="ZrcFdkD4Sg6ZXQPDmnVv2a7p9yzW9Kf3227EIZLR">
+      <title>Pay2 Zakat Melaka</title>
+      <!-- Favicon -->
+      <link rel="shortcut icon" href="https://pay2.izakat.com/argon/img/brand/favicon.png" />
+      <!-- Fonts -->
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+      <!-- Icons -->
+      <link href="https://pay2.izakat.com/argon/vendor/nucleo/css/nucleo.css" rel="stylesheet">
+      <link href="https://pay2.izakat.com/argon/vendor/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
+      <link href="https://pay2.izakat.com/autocomplete/jquery-ui.min.css" rel="stylesheet">
+      <!-- Argon CSS -->
+      <link type="text/css" href="https://pay2.izakat.com/argon/css/argon.css?v=1.0.11" rel="stylesheet">
+      <link type="text/css" href="https://pay2.izakat.com/argon/css/pageloader.css" rel="stylesheet">
+   </head>
+   <body class="bg-default">
+      <form id="delete-form" method="POST" style="display: none;">
+         <input type="hidden" name="_token" value="ZrcFdkD4Sg6ZXQPDmnVv2a7p9yzW9Kf3227EIZLR">            <input type="hidden" name="_method" value="delete">        
+      </form>
+      <div class="main-content">
+         <nav class="navbar navbar-top navbar-horizontal navbar-expand-md navbar-dark">
+            <div class="container px-4">
+               <a class="navbar-brand" href="https://pay2.izakat.com">
+               <img src="https://pay2.izakat.com/argon/img/brand/white.png" style="height: 60px" />
+               </a>
+               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse-main" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="collapse navbar-collapse" id="navbar-collapse-main">
+                  <!-- Collapse header -->
+                  <div class="navbar-collapse-header d-md-none">
+                     <div class="row">
+                        <div class="col-6 collapse-brand">
+                           <a href="https://pay2.izakat.com">
+                           <img src="https://pay2.izakat.com/argon/img/brand/blue.png"/>
+                           </a>
+                        </div>
+                        <div class="col-6 collapse-close">
+                           <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse-main" aria-controls="sidenav-main" aria-expanded="false" aria-label="Toggle sidenav">
+                           <span></span>
+                           <span></span>
+                           </button>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- Navbar items -->
+                  <ul class="navbar-nav ml-auto">
+                     <li class="nav-item">
+                        <a class="nav-link nav-link-icon" href="https://pay2.izakat.com/daftar">
+                        <i class="ni ni-circle-08"></i>
+                        <span class="nav-link-inner--text">Register a New Account</span>
+                        </a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link nav-link-icon" href="https://pay2.izakat.com/login">
+                        <i class="ni ni-key-25"></i>
+                        <span class="nav-link-inner--text">Log in</span>
+                        </a>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </nav>
+         <div class="header py-7 py-lg-8" style="background: url(https://pay2.izakat.com/img/masthead-bg-2_1.png)">
+            <div class="container">
+               <div class="header-body text-center mb-5">
+                  <div class="row justify-content-center">
+                     <div class="col-lg-8 col-md-8">
+                        <h1 class="text-white">Pay Qadha &#039; Zakat Fitrah</h1>
+                        
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="separator separator-bottom separator-skew zindex-100">
+               <svg x="0" y="0" viewBox="0 0 2560 100" preserveAspectRatio="none" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                  <polygon class="fill-default" points="2560 0 2560 100 0 100"></polygon>
+               </svg>
+            </div>
+         </div>
+         <div class="container mt--8 pb-5">
+            <div class="row justify-content-center">
+               <div class="col-md-8 col-sm-12 col-xs-8">
+                  <div class="card bg-secondary shadow border-0">
+                     <div class="card-body px-lg-5 py-lg-5">
+                        <form action="https://pay2.izakat.com/online_payment/summary" method="post">
+                           <input type="hidden" name="_token" value="ZrcFdkD4Sg6ZXQPDmnVv2a7p9yzW9Kf3227EIZLR">                               
+                           <input type="hidden" name="jenis_zakat[]" value="1">
+                           <input type="hidden" name="punca" value="1">
+                           <div class="form-group mb-3">
+                              <div class="input-group input-group-alternative">
+                                 <input class="form-control" placeholder="Full name" type="text" name="nama_penuh" value="" >
+                              </div>
+                           </div>
+                           <div class="row">
+                              <div class="col-lg-6">
+                                 <div class="form-group mb-3">
+                                    <div class="input-group input-group-alternative">
+                                       <select class="custom-select" name="jenis_pengenalan">
+                                          <option value="1" >New identification card</option>
+                                          <option value="3" >No. Polis / Tentera</option>
+                                          <option value="4" >Passport</option>
+                                       </select>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-lg-6">
+                                 <div class="form-group mb-3">
+                                    <div class="input-group input-group-alternative">
+                                       <input class="form-control" placeholder="No. Introduction" type="text" name="no_pengenalan" value="" >
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="form-group mb-3">
+                              <div class="input-group input-group-alternative">
+                                 <input class="form-control" placeholder="Email address" type="text" name="emel" value="" >
+                              </div>
+                           </div>
+                           <div class="form-group mb-3">
+                              <div class="input-group input-group-alternative">
+                                 <input class="form-control" placeholder="No. Phone" type="text" name="no_telefon" value="" >
+                              </div>
+                           </div>
+                           <hr>
+                           <div class="form-group mb-3">
+                              <label for="">Masukkan Alamat Pembayar</label>
+                              <div class="input-group input-group-alternative">
+                                 <input class="form-control" placeholder="No. House / Level" type="text" name="alamat_1" value="" >
+                              </div>
+                           </div>
+                           <div class="form-group mb-3">
+                              <div class="input-group input-group-alternative">
+                                 <input class="form-control" placeholder="Name of Street / Park / Village" type="text" name="alamat_2" value="" >
+                              </div>
+                           </div>
+                           <div class="form-group mb-3">
+                              <div class="input-group input-group-alternative">
+                                 <input class="form-control" placeholder="Additional Address" type="text" name="alamat_3" value="" >
+                              </div>
+                           </div>
+                           <div class="row">
+                              <div class="col-sm-4">
+                                 <div class="form-group mb-3">
+                                    <div class="input-group input-group-alternative">
+                                       <input class="form-control" placeholder="Postcode" type="text" name="poskod" value="" >
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-sm-8">
+                                 <div class="form-group mb-3">
+                                    <div class="input-group input-group-alternative">
+                                       <input class="form-control" placeholder="District" type="text" name="bandar" value="" >
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="form-group mb-3">
+                              <div class="input-group input-group-alternative">
+                                 <select class="custom-select" name="state">
+                                    <option value="1" >MELAKA</option>
+                                    <option value="2" >JOHOR</option>
+                                    <option value="3" >NEGERI SEMBILAN</option>
+                                    <option value="4" >SELANGOR</option>
+                                    <option value="5" >KUALA LUMPUR</option>
+                                    <option value="6" >PUTRAJAYA</option>
+                                    <option value="15" >KEDAH</option>
+                                    <option value="16" >KELANTAN</option>
+                                    <option value="17" >PAHANG</option>
+                                    <option value="18" >PULAU PINANG</option>
+                                    <option value="19" >PERAK</option>
+                                    <option value="20" >PERLIS</option>
+                                    <option value="21" >TERENGGANU</option>
+                                    <option value="22" >SABAH</option>
+                                    <option value="23" >SARAWAK</option>
+                                    <option value="24" >LABUAN</option>
+                                    <option value="31" >TIDAK DINYATAKAN</option>
+                                 </select>
+                              </div>
+                           </div>
+                           <hr>
+                           <div class="form-group mb-3 row">
+                              <label class="form-control-label col-sm-6" for="bilangan">Number of Dependents (Including yourself</label>
+                              <div class="col-sm-6">
+                                 <select class="custom-select" name="bilangan">
+                                    <option value="1" >1 orang</option>
+                                    <option value="2" >2 orang</option>
+                                    <option value="3" >3 orang</option>
+                                    <option value="4" >4 orang</option>
+                                    <option value="5" >5 orang</option>
+                                    <option value="6" >6 orang</option>
+                                    <option value="7" >7 orang</option>
+                                    <option value="8" >8 orang</option>
+                                    <option value="9" >9 orang</option>
+                                    <option value="10" >10 orang</option>
+                                    <option value="11" >11 orang</option>
+                                    <option value="12" >12 orang</option>
+                                    <option value="13" >13 orang</option>
+                                    <option value="14" >14 orang</option>
+                                    <option value="15" >15 orang</option>
+                                    <option value="16" >16 orang</option>
+                                    <option value="17" >17 orang</option>
+                                    <option value="18" >18 orang</option>
+                                    <option value="19" >19 orang</option>
+                                    <option value="20" >20 orang</option>
+                                    <option value="21" >21 orang</option>
+                                    <option value="22" >22 orang</option>
+                                    <option value="23" >23 orang</option>
+                                    <option value="24" >24 orang</option>
+                                    <option value="25" >25 orang</option>
+                                    <option value="26" >26 orang</option>
+                                    <option value="27" >27 orang</option>
+                                    <option value="28" >28 orang</option>
+                                    <option value="29" >29 orang</option>
+                                    <option value="30" >30 orang</option>
+                                 </select>
+                              </div>
+                           </div>
+                           <div class="form-group mb-3 row">
+                              <label class="form-control-label col-sm-6" for="kadar_zakat">Zakat rates</label>
+                              <div class="col-sm-6">
+                                 <div class="input-group input-group-alternative">
+                                    <select class="custom-select" name="kadar_zakat">
+                                       <option value="34" data-amount="7" >RM.00</option>
+                                       <option value="35" data-amount="14" >RM14.00</option>
+                                       <option value="36" data-amount="21" >RM21.00</option>
+                                    </select>
+                                    <div class="input-group-append">
+                                       <button type="button" class="btn btn-md btn-primary" data-toggle="modal" data-target="#infoKadarFitrah">See Rate Table</button>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="form-group mb-3 row">
+                              <label class="form-control-label col-sm-6" for="kadar_zakat">Amount of Zakat Fitrah to be paid</label>
+                              <div class="col-sm-6">
+                                 <div class="input-group input-group-alternative">
+                                    <div class="input-group-prepend">
+                                       <span class="input-group-text">RM</span>
+                                    </div>
+                                    <input type="text" id="amaun" name="amaun[]" class="form-control" readonly>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="caption caption-md">
+                              <blockquote>
+                                 I hereby issue the obligatory Zakat Fitrah on myself / dependents in lieu of rice as much as <strong>RM<span id="amaunW">0.00</span></strong> qada' untuk tahun ini kerana Allah Ta’ala.
+                              </blockquote>
+                           </div>
+                           <div class="d-flex justify-content-center mt-3">
+                              <button type="button" class="btn btn-success" data-toggle="modal" data-target="#caraBayar">Pay Now</button>
+                              <div class="modal fade" id="caraBayar" tabindex="-1" role="dialog" aria-hidden="true">
+                                 <div class="modal-dialog modal-dialog-centered modal-dialog-centered modal-md" role="document">
+                                    <div class="modal-content">
+                                       <div class="modal-body p-0">
+                                          <div class="card border-0 shadow bg-secondary">
+                                             <div class="card-body px-lg-4">
+                                                <h6 class="heading-small text-muted mb-4">Select a Payment Method</h6>
+                                                <img alt="Image placeholder" src="https://pay2.izakat.com/argon/img/icons/common/meps-fpx.png">
+                                                <div class="my-3 text-center">
+                                                   <button type="submit" class="btn btn-primary mb-4 mb-xl-0 col-xl-5 col-lg-7" name="cara_bayar" value="fpx">
+                                                   FPX Individu
+                                                   </button>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </form>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="modal fade" id="infoKadarFitrah" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-centered modal-lg" role="document">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h4 class="modal-title">Current Zakat Fitrah Rate</h4>
+                  </div>
+                  <div class="modal-body p-0">
+                     <img src="/storage/kadar_fitrah.jpg" alt="Kadar_Fitrah" class="col-12">
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <footer class="py-0">
+         <div class="container">
+            <div class="row align-items-center justify-content-xl-between">
+               <div class="col-xl-6">
+                  <div class="copyright text-center text-xl-left text-muted">
+                    All rights reserved &copy; 2022 <a href="https://www.izakat.com" class="font-weight-bold ml-1" target="_blank">Zakat Melaka Sdn. Bhd.</a>
+                  </div>
+               </div>
+               <div class="col-xl-6">
+               </div>
+            </div>
+         </div>
+      </footer>
+      <div class="page-loader" style="z-index: 9999">
+         <div class="preloader">
+            <svg class="pl-circular" viewBox="25 25 50 50">
+               <circle class="plc-path" cx="50" cy="50" r="20"></circle>
+            </svg>
+            <p>
+                Please wait</p>
+         </div>
+      </div>
+      <script src="https://pay2.izakat.com/argon/vendor/jquery/dist/jquery.min.js"></script>
+      <script src="https://pay2.izakat.com/argon/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+      <script src="https://pay2.izakat.com/argon/vendor/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"></script>
+      <script src="https://pay2.izakat.com/autocomplete/jquery-ui.min.js"></script>
+      <!-- Argon JS -->
+      <script src="https://pay2.izakat.com/argon/js/argon.js?v=1.0.0"></script>
+      <script>
+         $(document).ready(function()
+         {
+             /* --------------------------------------------------------
+             Page Loader
+             -----------------------------------------------------------*/
+             if(!$('html').hasClass('ismobile')) {
+                 if($('.page-loader')) {
+                     setTimeout (function () {
+                         $('.page-loader').fadeOut();
+                     }, 500);
+                 }
+             }
+         
+             $('form').submit(function(e)
+             {
+                 $(".page-loader").fadeIn();
+                 // $('button[type=submit]').attr('disabled', true);
+             });
+         
+             $(".datepicker").datepicker({ 
+                 dateFormat: 'yy/mm/dd'
+             });
+         
+             $('a#delete-record').click(function (event){
+                 event.preventDefault();
+                 var url = $(this).attr('href');
+                 
+                 var val = confirm("You are sure to proceed with action on this record?");
+                 if(val)
+                 {
+                     $form = $('form#delete-form').attr('action', url).submit();
+                 }
+                 
+             });
+         
+             $("#delete-form").on('submit', function(e)
+             {
+                 return true;
+             });
+         
+             $('a#edit-record').click(function (event){
+                 event.preventDefault();
+                 var url = $(this).attr('href');
+         
+                 $('#editModalContent').load(url);
+         
+                 $('#editModal').modal('show');
+             });
+             $('a#edit-record-lg').click(function (event){
+                 event.preventDefault();
+                 var url = $(this).attr('href');
+         
+                 $('#editModalContent-lg').load(url);
+         
+                 $('#editModal-lg').modal('show');
+             });
+         });
+      </script>
+      <script>
+         $(document).ready(function()
+         {
+             $.kiraAmaunZakat = function()
+             {
+                 rate = $('select[name=kadar_zakat] option:selected').data('amount');
+                 dependents = $('select[name=bilangan]').val();
+                 
+                 $('input[id=amaun]').val(parseFloat(rate * dependents).toFixed(2));
+                 $('#amaunW').html(parseFloat(rate * dependents).toFixed(2));
+             };
+         
+             $.kiraAmaunZakat();
+         
+             $('select[name=kadar_zakat]').on('change', function()
+             {
+                 $.kiraAmaunZakat();
+             });
+         
+             $('select[name=bilangan]').on('change', function()
+             {
+                 $.kiraAmaunZakat();
+             });
+         });
+      </script>
+   </body>
+</html>
