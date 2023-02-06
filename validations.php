@@ -3,11 +3,11 @@
 
 
 // Define variables and initialize with empty values
-$name_error   = "";
-$ID_error   = "";
-$address_error   = "";
-$email_error   = "";
-$island_error   = "";
+$name_error;
+$ID_error;
+$address_error;
+$email_error;
+$island_error;
 $errors = array(); 
 
 
@@ -27,8 +27,6 @@ if (isset($_POST['submit'])) {
   if(empty($input_id)){$ID_error = "Please enter  ID Card number.";} 
   if(empty($input_address)){$address_error = "Please enter your address.";} 
   if(empty($input_email)){$email_error = "Please enter your email address.";} 
-
-
 
 
 /*Validation for invalid name  */

@@ -64,7 +64,7 @@
                            
                 <!-- User Island --> 
                 <div class="form-group mb-3">
-                        <select class="form-control custom-select" id="select_island" name="select_island">
+                        <select class="form-control custom-select" id="select_island" name="select_island" required>
                          <option value="" selected="true" disabled="disabled" >Atoll and Island</option>
                   
                   <?php
@@ -104,9 +104,7 @@
                        <div class="form-group mb-3">
                         <div class="input-group input-group-alternative">
                             <select class="form-control custom-select" name="zakat_rates" required>
-                           
-                                    
-                                    <option value="" selected="true" disabled="disabled" >Zakat Rates</option>
+                                    <option value="" selected="true" disabled="disabled">Zakat Rates</option>
                                     <option value="12" >Normal Rice - MVR 12.00</option>
                                     <option value="77" >Thailand White Rice - MVR 77.00</option>
                                     <option value="72" >Red Rice - MVR 72.00</option>
@@ -115,7 +113,6 @@
                                     <option value="132" >Best Baasmati Rice - MVR 132.00</option>
                                     <option value="12" >Flour - MVR 12.00</option>
                                     <option value="75" >Premium Flour - MVR 75.00</option>
-                                   
                             </select>
                         </div>
                     </div>
@@ -154,8 +151,8 @@
                         <div class="position-relative bg-gradient-primary h-100 m-3 px-7 border-radius-lg d-flex flex-column justify-content-center overflow-hidden" 
                            background-size: cover;">
                            <span class="mask bg-gradient-primary opacity-6"></span>
-                           <h4 class="mt-5 text-white font-weight-bolder position-relative">"Attention is the new currency"</h4>
-                           <p class="text-white position-relative">The more effortless the writing looks, the more effort the writer actually put into the process."</p>
+                           <h4 class="mt-5 text-white font-weight-bolder position-relative">" Abu Hurairah narrated that the Prophet said:"</h4><br>
+                           <p class="text-white position-relative">“When you pay the Zakat you have fulfilled what is required of you.” (Al-Tirmidhi, Chapter 7, No. 618"</p>
                         </div>
                      </div>
                   </div>
