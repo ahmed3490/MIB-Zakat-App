@@ -1,22 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="utf-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-      
-      <!-- <link rel="apple-touch-icon" sizes="76x76" href="../assets/img/apple-icon.png"> -->
-      
 
-      <link rel="icon" sizes="76x76"  type="image/png" href="./assets/img/apple-icon.png">
-      <link rel="icon" sizes="16x16"  type="image/png" href="./assets/img/favicon-16x16">
-      <link rel="icon" sizes="32x32"  type="image/png" href="./assets/img/favicon-32x32">
-
-
-      
+ <head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ 
+  <link rel="icon" type="image/png" href="assets/img/favicon.png">
+  <title>
 
 
 
-      <title>
+     
          Maldives Islamic Bank Zakat Payment
       </title>
       <!--     Fonts and icons     -->
@@ -29,11 +23,11 @@
       <link href="./assets/css/nucleo-svg.css" rel="stylesheet" />
       <!-- CSS Files -->
       <link id="pagestyle" href="./assets/css/argon-dashboard.css?v=2.0.2" rel="stylesheet" />
-
+ </head>
        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
-
+ 
 
       <script type="text/javascript">
     $(document).ready(function(){
@@ -76,4 +70,4 @@
 
 
 
-   </head>
+ 

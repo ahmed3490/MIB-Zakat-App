@@ -1,9 +1,13 @@
 <?php  include 'connection.php';
+  
        include 'validations.php'; 
-       include 'success.php'; 
-       include 'includes/header.php';
+     
+        include 'includes/header.php'; 
        include 'includes/navbar.php';
+     /*   include 'success.php';  */
        include 'includes/main-content.php';
+       
+       
 ?>
 
            
