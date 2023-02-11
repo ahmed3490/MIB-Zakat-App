@@ -58,7 +58,7 @@
                   <!-- User Email -->
                   <div class="form-group mb-3">
                      	<div class="main-content-container container-fluid px-1">
-                       <input type="text"  id="Email" name="Email"  class="form-control  
+                       <input type="email"  id="Email" name="Email"  class="form-control  
                          <?php echo (!empty($email_error)) ? 'is-invalid' : ''; ?>
                          "placeholder=" Email Address:">
                           <span class="invalid-feedback"><?php echo $email_error;?></span>
@@ -85,8 +85,30 @@
                 </div>
 
                           
-                            
-                    <div class="form-group mb-3">
+
+  
+                  <!-- Dependants -->
+                  <div class="form-group mb-3">
+                     	<div class="main-content-container container-fluid px-1">
+                       <input type="number"  id="dependents" name="dependents"  class="form-control  
+                         <?php echo (!empty($dependants_error)) ? 'is-invalid' : ''; ?>
+                         "placeholder=" Dependants:">
+                          <span class="invalid-feedback"><?php echo $dependants_error;?></span>
+                     </div>
+                  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+                   <!--  <div class="form-group mb-3">
                         <div class="input-group input-group-alternative">
                             <select class="form-control custom-select" name="dependents" required>
                             <button type="button" class="btn btn-lg btn-primary btn-lg w-100 mt-4 mb-0">Dependents</button>
@@ -102,7 +124,7 @@
                                     <option value="9" >9 persons</option>
                             </select>
                         </div>
-                    </div>
+                    </div> -->
 
 
                        <div class="form-group mb-3">

@@ -7,7 +7,7 @@
              {
                  /* rate = $('select[name=zakat_rates] option:selected').data('amount'); */
                  rate = $('select[name=zakat_rates]').val();
-                 dependents = $('select[name=dependents]').val();
+                 dependents = $('input[name=dependents]').val();
                  
                   $('input[id=zakat]').val(parseFloat(rate * dependents).toFixed(2));
                  $('#zakatW').html(parseFloat(rate * dependents).toFixed(2));
@@ -25,7 +25,7 @@
                  $.ZakatAmount();
              });
          
-             $('select[name=dependents]').on('change', function()
+             $('input[name=dependents]').on('change', function()
              {
                  $.ZakatAmount();
              });

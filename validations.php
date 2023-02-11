@@ -7,6 +7,7 @@ $name_error;
 $ID_error;
 $address_error;
 $email_error;
+$dependants_error;
 $island_error;
 $errors = array(); 
 
@@ -19,6 +20,8 @@ if (isset($_POST['submit'])) {
   $input_email = trim($_POST["Email"]);
   $input_island = trim($_POST["select_island"]);
   $input_zakat = trim($_POST["zakat_rates"]);
+/* 
+  $input_dependents = trim($_POST["dependents"]); */
   $input_dependents = trim($_POST["dependents"]);
   $input_zakat_total = trim($_POST["zakat"]);
  
@@ -27,7 +30,7 @@ if (isset($_POST['submit'])) {
   if(empty($input_id)){$ID_error = "Please enter  ID Card number.";} 
   if(empty($input_address)){$address_error = "Please enter your address.";} 
   if(empty($input_email)){$email_error = "Please enter your email address.";} 
-
+  if(empty($input_dependents)){$dependants_error = "Please enter number of dependants!.";} 
 
 /*Validation for invalid name  */
 elseif (!preg_match("/^([a-zA-Z' ]{4,30}+)$/", $input_name)) { 
